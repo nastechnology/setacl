@@ -1,6 +1,6 @@
 class setacl {
 
-	file { 'C:/SetACL.exe':
+	file { 'C:/NACSManage/SetACL.exe':
 	   ensure => 'file',
 	   owner => 'Administrator',
 	   group => 'Administrators',
